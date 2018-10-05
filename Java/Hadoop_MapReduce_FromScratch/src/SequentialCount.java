@@ -5,13 +5,17 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 
 
 
 public class SequentialCount {
+	
+	public static final Set<String> VALUES = new HashSet<String>();
 	
 	public static void count(String a) throws IOException 
 	{
@@ -29,14 +33,20 @@ public class SequentialCount {
         while ((Line = br.readLine()) != null) {
 			for (String word : Line.replace("\n", " ").split(" ") ) {
 				String wordLower= word.toLowerCase();
-				if (hMap.containsKey(word)) {
-					hMap.put(wordLower, hMap.get(word)+1);
-					
-				} else {
-					hMap.put(wordLower,  1);
+				boolean contains = VALUES.contains(wordLower);
+				
+				if (!contains) {
+					if(!hMap.containsKey(wordLower)) {
+						hMap.put(wordLower,  1);
+					} else {
+						hMap.put(wordLower, hMap.get(wordLower)+1);
+					}
 				}
+					
 			}
         }
+        in.close();
+        
 		//Creation of the sorted HashMap
 		
 		
@@ -60,7 +70,7 @@ public class SequentialCount {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String listS = "/Users/anthonyhoudaille/Desktop/data science/CodeMS/BigData_TELECOM/ArticlePolice.txt";
+		String listS = "/home/anthony/Bureau/MS_BIG_DATA/Reste/ArticlePolice.txt";
 		count(listS);
 		
         
