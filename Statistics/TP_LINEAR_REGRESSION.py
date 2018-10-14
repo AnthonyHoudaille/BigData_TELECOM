@@ -10,6 +10,9 @@ import numpy as np
 import scipy.stats as stat
 import math as mp
 import matplotlib.pyplot as plt
+from sklearn import  linear_model
+from mpl_toolkits.mplot3d import Axes3D
+
 ## Exercice 1 
 ##Question 1
 
@@ -82,8 +85,8 @@ def TP2():
     
     ##Question 5
     
-    Invest_predect = mp.log(intercept + pente * 1000)
-    print(Invest_predect)
+    Invest_predict = mp.log(intercept + pente * 1000)
+    print(Invest_predict)
     
     
     vals = stat.t.ppf(0.9,  n-2)
@@ -92,17 +95,150 @@ def TP2():
     sigma4 =  sigmahat * np.sqrt( 1 + (1 / n) + (X - X_)**2  / ((X - X_)**2).sum() )
     
     #besoin de mettre np.sqrt pour obtenir une série d'intervalle de confiance
-    IC = [Invest_predect - (vals * sigma3) , Invest_predect + (vals * sigma3) ]
+    IC = [Invest_predict - (vals * sigma3) , Invest_predict + (vals * sigma3) ]
     print (IC)
     
-    IC2 = [Invest_predect - (vals * sigma4) , Invest_predect + (vals * sigma4) ]
+    IC2 = [Invest_predict - (vals * sigma4) , Invest_predict + (vals * sigma4) ]
     print (IC2)
     
     ##Question 6
     
-    df.plot.scatter(x='gnp',y='invest', label ='echelle log')
-    plt.plot(Yhat, intercept + pente * X)
+    df.plot.scatter(x='gnp',y='invest')
+    plt.plot(X, intercept + pente * X, label = 'regressionLine')
+    plt.plot(X, intercept + pente * X + (vals * sigma3), label = 'CImax')
+    plt.plot(X, intercept + pente * X - (vals * sigma3), label = 'CImin')
+    plt.plot(X, intercept + pente * X + (vals * sigma4), label = 'PImax')
+    plt.plot(X, intercept + pente * X - (vals * sigma4), label = 'PImin')
+    plt.xlabel('gnp (log)')
+    plt.ylabel('invest (log)')
+    plt.legend()
     plt.show()
     
+    ## Question 7 
+        
+
+        #Creation of the linearRegression object
+    regLin = linear_model.LinearRegression()
+    
+        #Train the model with train sets
+    #regLin.fit(gnp_train, invest_train)
+    regLin.fit(X[: , np.newaxis], Y)
+        
+    invest_predict_GNp1000 = np.log(regLin.predict(1000))
+    
+        #Coefficient 
+    Coef = regLin.coef_
+    InTercept = regLin.intercept_
+    print(invest_predict_GNp1000[0])
+    print(Coef)
+    print(InTercept)
+    
+    ##Question 8
+    
+            # Creation of a test set
+    X_test = np.linspace(np.min(X), np.max(X), 15)
+    
+            #Make predictions using testing sets
+    invest_predict = regLin.predict(X_test[: , np.newaxis])
+    
+    df.plot.scatter(x='gnp',y='invest')
+    plt.plot(X, invest_predict, color='red', label = 'prediction of invest')
+    plt.plot(X, InTercept + Coef * X, label = 'regressionLine', color = 'green')
+
+    plt.plot(np.log(1000), InTercept + Coef * invest_predict_GNp1000 , marker = "X", color= 'black',  label = 'Predicted Invest for GNP = 1000') 
+    plt.xlabel('gnp (log)')
+    plt.ylabel('invest (log)')
+    plt.legend()
+    plt.show()
+    
+    #Question 9
+    
+    X = np.hstack([np.ones(shape = (len(Y),1)), df[['gnp', 'interest']]])
+    Xt = np.transpose(X)
+    Gram_hat = np.matmul(Xt , X) 
+    
+        #Pour determiner si la matrice est de rang plein il faut quelle soit inversible: 
+            # ie: symétrique
+            # et vap différent de 0
+    
+    print("Test de symétrie : " + str(Gram_hat[1,0]==Gram_hat[0,1]))
+   
+    vap = np.linalg.eig(Gram_hat)[0]
+    print("Les valeurs propres de la matrice de gram sont : " + str(vap)+ " \n On remarque qu'elles ne sont pas nulle \nDonc la matrice de Gram est de rang plein. \n \n \n")
+    
+    #Question 10
+    Y = np.hstack(df['invest'])
+    gram_inv = inv(Gram_hat)
+    
+        #Determinons les coefficients de beta
+    beta_hat = np.matmul(gram_inv, np.matmul(Xt, Y))
+    print("Les trois coefficient sont les suivants : " + str(beta_hat))
+    
+        #Determinons leurs variances :
+    sigbeta0 = mp.sqrt((sigmahat**2) * gram_inv[0,0])
+    sigbeta1 = mp.sqrt((sigmahat**2) * gram_inv[1,1])
+    sigbeta2 = mp.sqrt((sigmahat**2) * gram_inv[2,2])
+    print("L'écart-type du coefficient beta0 est : " + str(sigbeta0))
+    print("L'écart-type du coefficient beta1 est : " + str(sigbeta1))
+    print("L'écart-type du coefficient beta2 est : " + str(sigbeta2))
+    
+        # Coeff de détermination
+    Yhat = np.matmul(X, beta_hat)
+    R2 = 1 - (((Y - Yhat)**2).sum() / ((Y - Y_)**2).sum())
+    print ("Le nouveau coeff de détermination est de : " + str(R2))
+    
+        # Pour beta 0
+        
+            #Statistique de test
+    StatistiqueZb0 = beta_hat[0] / sigbeta0
+    print ("La Statistique de test de beta 0 est : " + str(StatistiqueZb0))
+    
+            # déterminons la p-value 
+    pvalb0 = stat.t.sf(np.abs(StatistiqueZb0), n-3)*2
+    print ("La p-value de beta0 est : " + str(pvalb0))
+    
+        # Pour beta 1
+        
+            #Statistique de test
+    StatistiqueZb1 = beta_hat[1] / sigbeta1
+    print ("La Statistique de test de beta 1 est : " + str(StatistiqueZb1))
+    
+            # déterminons la p-value 
+    pvalb1 = stat.t.sf(np.abs(StatistiqueZb1), n-3)*2
+    print ("La p-value de beta1 est : " + str(pvalb1))
+    
+        # Pour beta 2
+        
+            #Statistique de test
+    StatistiqueZb2 = beta_hat[2] / sigbeta2
+    print ("La Statistique de test de beta 2 est : " + str(StatistiqueZb2))
+    
+            # déterminons la p-value 
+    pvalb2 = stat.t.sf(np.abs(StatistiqueZb2), n-3)*2
+    print ("La p-value de beta0 est : " + str(pvalb2) +"\n \n \n")
+    
+        ##Question 11
+    
+    x = np.hstack([1, np.log(1000), 10])    
+    predicted_invest = np.matmul(x, beta_hat)
+    print((predicted_invest))
+    
+    valstest = stat.t.ppf(0.999,  n-2)
+    sigpredict = np.matmul(np.transpose(x), np.matmul(gram_inv, x))
+    
+            #Interval de prédiction
+    Ip = [predicted_invest - (valstest * sigmahat * mp.sqrt(1 + sigpredict)) , predicted_invest + (valstest * sigmahat * mp.sqrt(1 + sigpredict)) ]
+    
+            #Interval de confiance
+    Ic = [predicted_invest - (valstest * sigmahat * mp.sqrt(sigpredict)) , predicted_invest + (valstest * sigmahat * mp.sqrt(sigpredict)) ]
+    
+    print("l'intervalle de prédiction est : \n      "+  str(Ip))
+    print("l'intervalle de confiance est : \n      "+  str(Ic)+"\n \n")
+    
+    #Question 12
     
     
+    fig = plt.figure()
+    ax = fig.gca(projection = '3d')
+    ax.plot_surface(Y, X[1], X[2])
+    plt.show()

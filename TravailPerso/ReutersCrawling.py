@@ -16,6 +16,7 @@ Created on Mon Oct  8 21:13:50 2018
 
 import requests
 from bs4 import BeautifulSoup
+
 def Reuters() :
     Url = "https://www.reuters.com/finance/stocks/financial-highlights/"
     Query = ["LVMH", "AIR", "DANO"]
