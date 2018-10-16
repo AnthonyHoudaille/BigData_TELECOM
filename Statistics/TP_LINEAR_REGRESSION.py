@@ -86,30 +86,26 @@ def TP2():
     
     ##Question 5
     
-    Invest_predict = intercept + pente * 1000 ##mp.log()
+    Invest_predict = intercept + pente * mp.log(1000) ##mp.log()
     print(Invest_predict)
     
     
     vals = stat.t.ppf(0.9,  n-2)
     print(vals)
-    sigma3 =  sigmahat * np.sqrt( (1 / n) + ((X - X_)**2)  / ((X - X_)**2).sum() )
-    sigma4 =  sigmahat * np.sqrt( 1 + (1 / n) + (X - X_)**2  / ((X - X_)**2).sum() )
+    sigma3 =  sigmahat * np.sqrt( (1 / n) + (X_)**2  / ((X - X_)**2).sum()) )
+    sigma4 =  sigmahat * np.sqrt( 1 + (1 / n) + (X_)**2  / ((X - X_)**2).sum() )
     
+    #Question 6
     #besoin de mettre np.sqrt pour obtenir une série d'intervalle de confiance
-    IC = [Invest_predict - (vals * sigma3) , Invest_predict + (vals * sigma3) ]
-    print (IC)
-    
-    IC2 = [Invest_predict - (vals * sigma4) , Invest_predict + (vals * sigma4) ]
-    print (IC2)
-    
-    ##Question 6
-    
+    sigmaplt1 =  sigmahat * np.sqrt( (1 / n) + (X - X_)**2  / ((X - X_)**2).sum()) 
+    sigmaplt2 =  sigmahat * np.sqrt( 1 + (1 / n) + (X - X_)**2  / ((X - X_)**2).sum() )
+
     df.plot.scatter(x='gnp',y='invest')
     plt.plot(X, intercept + pente * X, label = 'regressionLine')
-    plt.plot(X, intercept + pente * X + (vals * sigma3), label = 'CImax')
-    plt.plot(X, intercept + pente * X - (vals * sigma3), label = 'CImin')
-    plt.plot(X, intercept + pente * X + (vals * sigma4), label = 'PImax')
-    plt.plot(X, intercept + pente * X - (vals * sigma4), label = 'PImin')
+    plt.plot(X, intercept + pente * X + (vals * sigmaplt1), label = 'CImax')
+    plt.plot(X, intercept + pente * X - (vals * sigmaplt1), label = 'CImin')
+    plt.plot(X, intercept + pente * X + (vals * sigmaplt2), label = 'PImax')
+    plt.plot(X, intercept + pente * X - (vals * sigmaplt2), label = 'PImin')
     plt.xlabel('gnp (log)')
     plt.ylabel('invest (log)')
     plt.legend()
