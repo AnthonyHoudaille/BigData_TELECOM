@@ -30,7 +30,7 @@ public class deploy {
 					ProcessBuilder pb2 = new ProcessBuilder("ssh", "ahoudaille@" + computer, "mkdir -p /tmp/AnthoH");
 					Process p2 = pb2.start();
 					List<BufferedReader> ISR2 = Buffering(p2);
-					boolean b = p2.waitFor(3, TimeUnit.SECONDS);
+					Thread.sleep(3000);
 					ProcessBuilder pb3 = new ProcessBuilder("scp -r", "/tmp/AnthoH/Slave.jar" , "ahoudaille@"+computer+":/tmp/AnthoH/");
 					Process p3 = pb2.start();
 					
@@ -63,7 +63,8 @@ public class deploy {
 		}
 		
 		public static void main(String[] args) throws IOException, InterruptedException {
-			String path = "/tmp/AnthoH/Computer.txt";
+			//String path = "/tmp/AnthoH/Computer.txt"; // pour pc linux TPT
+			String path = "Computer.txt"; // Sur mon mac
 			testSSH(path);
 		}
 }

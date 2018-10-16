@@ -12,6 +12,7 @@ import math as mp
 import matplotlib.pyplot as plt
 from sklearn import  linear_model
 from mpl_toolkits.mplot3d import Axes3D
+import statsmodels.regression.linear_model as sm
 
 ## Exercice 1 
 ##Question 1
@@ -145,7 +146,9 @@ def TP2():
     plt.plot(X, invest_predict, color='red', label = 'prediction of invest')
     plt.plot(X, InTercept + Coef * X, label = 'regressionLine', color = 'green')
 
-    plt.plot(np.log(1000), InTercept + Coef * invest_predict_GNp1000 , marker = "X", color= 'black',  label = 'Predicted Invest for GNP = 1000') 
+    plt.plot(np.log(1000), InTercept + Coef * invest_predict_GNp1000 , \
+             marker = "X", color= 'black',  \
+             label = 'Predicted Invest for GNP = 1000') 
     plt.xlabel('gnp (log)')
     plt.ylabel('invest (log)')
     plt.legend()
@@ -157,18 +160,21 @@ def TP2():
     Xt = np.transpose(X)
     Gram_hat = np.matmul(Xt , X) 
     
-        #Pour determiner si la matrice est de rang plein il faut quelle soit inversible: 
+        #Pour determiner si la matrice est de rang plein il faut quelle soit 
+        #inversible: 
             # ie: symétrique
             # et vap différent de 0
     
     print("Test de symétrie : " + str(Gram_hat[1,0]==Gram_hat[0,1]))
    
     vap = np.linalg.eig(Gram_hat)[0]
-    print("Les valeurs propres de la matrice de gram sont : " + str(vap)+ " \n On remarque qu'elles ne sont pas nulle \nDonc la matrice de Gram est de rang plein. \n \n \n")
+    print("Les valeurs propres de la matrice de gram sont : " + str(vap)+ "\n \
+          On remarque qu'elles ne sont pas nulle \nDonc la matrice de Gram est\
+          de rang plein. \n \n \n")
     
     #Question 10
     Y = np.hstack(df['invest'])
-    gram_inv = inv(Gram_hat)
+    gram_inv = np.linalg.inv(Gram_hat)
     
         #Determinons les coefficients de beta
     beta_hat = np.matmul(gram_inv, np.matmul(Xt, Y))
@@ -227,10 +233,12 @@ def TP2():
     sigpredict = np.matmul(np.transpose(x), np.matmul(gram_inv, x))
     
             #Interval de prédiction
-    Ip = [predicted_invest - (valstest * sigmahat * mp.sqrt(1 + sigpredict)) , predicted_invest + (valstest * sigmahat * mp.sqrt(1 + sigpredict)) ]
+    Ip = [predicted_invest - (valstest * sigmahat * mp.sqrt(1 + sigpredict)) ,\
+          predicted_invest + (valstest * sigmahat * mp.sqrt(1 + sigpredict)) ]
     
             #Interval de confiance
-    Ic = [predicted_invest - (valstest * sigmahat * mp.sqrt(sigpredict)) , predicted_invest + (valstest * sigmahat * mp.sqrt(sigpredict)) ]
+    Ic = [predicted_invest - (valstest * sigmahat * mp.sqrt(sigpredict)) , \
+          predicted_invest + (valstest * sigmahat * mp.sqrt(sigpredict)) ]
     
     print("l'intervalle de prédiction est : \n      "+  str(Ip))
     print("l'intervalle de confiance est : \n      "+  str(Ic)+"\n \n")
@@ -238,7 +246,36 @@ def TP2():
     #Question 12
     
     
+    
+    
+    x_surf, y_surf = np.meshgrid(np.linspace(df.gnp.min(), df.gnp.max(), 100),\
+                        np.linspace(df.interest.min(), df.interest.max(), 100)) 
+    #onlyX = pd.DataFrame({'gnp (log)': x_surf.ravel(), 'interest ': y_surf.ravel()})
+   
+    Z = beta_hat[0] + beta_hat[1] * x_surf + beta_hat[2] * y_surf
+    
     fig = plt.figure()
-    ax = fig.gca(projection = '3d')
-    ax.plot_surface(Y, X[1], X[2])
+    ax = fig.add_subplot(111, projection='3d')
+    ax.scatter(df['gnp'],df['invest'],df['interest'],c='blue', marker='o', alpha=0.5)
+    ax.plot_surface(x_surf,y_surf, Z.reshape(x_surf.shape) , color='red', alpha=0.5)
+    
+    ax.plot_surface(x_surf,y_surf, (Z + Ip[0]).reshape(x_surf.shape) , color='green', alpha=0.3)
+    ax.plot_surface(x_surf,y_surf, (Z - Ip[1]).reshape(x_surf.shape) , color='yellow', alpha=0.3)
+    
+    ax.plot_surface(x_surf,y_surf, (Z - Ip[0]).reshape(x_surf.shape) , color='black', alpha=0.3)
+    ax.plot_surface(x_surf,y_surf, (Z + Ic[1]).reshape(x_surf.shape) , color='purple', alpha=0.3)
+    
+    ax.set_xlabel('gnp (log)')
+    ax.set_ylabel('interest')
+    ax.set_zlabel('invest (log)')
     plt.show()
+    
+    
+    #Question 13
+    
+    #En utilisant le paclage sm.OLS, on estime les paramètres puis on les teste 1 à 1
+    results = sm.OLS(Y, X).fit().params
+    print("Beta 0 vaut : " "%.3f" % results[0])
+    print("Beta 1 veut : " "%.3f" % results[1])
+    print("Beta 2 vaut : " "%.3f" % results[2])
+    
