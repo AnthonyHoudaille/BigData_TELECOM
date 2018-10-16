@@ -51,42 +51,42 @@ def TP2():
     pente = ((Y - Y_)*(X - X_)).sum() / ((X - X_)**2).sum()
     intercept = Y_ - pente * X_
     
-    print (pente)
-    print(intercept)
+    print ("La pense vaut :" "%.3f" % pente)
+    print("L'intercept vaut :" "%.3f" % intercept)
     
         ## Ecart type
     n = len(X)
     sigmahat = mp.sqrt((1 / (n - 2)) * ((Y - (intercept + pente * X))**2).sum())
-    print (sigmahat)
+    print ("L'écart type global vaut :" "%.3f" % sigmahat)
     
     sigma_intercept = sigmahat * mp.sqrt( (1 / n) + X_**2  / ((X - X_)**2).sum() )
-    print (sigma_intercept)
+    print ("L'écart-type de l'intercept vaut :" "%.3f" % sigma_intercept)
     
     sigma_pente = sigmahat * mp.sqrt( 1  / ((X - X_)**2).sum() )
-    print (sigma_pente)
+    print ("L'écart-type de la pente vaut :" "%.3f" % sigma_pente)
         ## Coeff de détermination
     Yhat = intercept + pente * X
     R2 = 1 - (((Y - Yhat)**2).sum() / ((Y - Y_)**2).sum())
     
-    print (R2)
+    print ("Le coefficient de détermination vaut :" "%.3f" % R2)
     
     ##Question 4 
         #On veut déterminer si l'hypothèse pente=0 est vrai ou non
         # Pour cela, on détermine la statistique du test de student et sa p-value
         
     StatistiqueZ = pente / sigma_pente
-    print (StatistiqueZ)
+    print ("La Statistique de test vaut " "%.3f" % StatistiqueZ)
     #Z = 18, on rejette donc l'hypothèse pente = 0
     
     # déterminons la p-value 
     pval = stat.t.sf(np.abs(StatistiqueZ), n-2)*2
-    print (pval)
+    print ("La p-valuue vaut : " "%.3f" % pval)
     
     #Z = 18>>pval, on rejette donc l'hypothèse pente = 0
     
     ##Question 5
     
-    Invest_predict = mp.log(intercept + pente * 1000)
+    Invest_predict = intercept + pente * 1000 ##mp.log()
     print(Invest_predict)
     
     
@@ -155,6 +155,7 @@ def TP2():
     plt.show()
     
     #Question 9
+    sigmahat = mp.sqrt((1 / (n - 3)) * ((Y - (intercept + pente * X))**2).sum())
     
     X = np.hstack([np.ones(shape = (len(Y),1)), df[['gnp', 'interest']]])
     Xt = np.transpose(X)
@@ -179,6 +180,7 @@ def TP2():
         #Determinons les coefficients de beta
     beta_hat = np.matmul(gram_inv, np.matmul(Xt, Y))
     print("Les trois coefficient sont les suivants : " + str(beta_hat))
+    
     
         #Determinons leurs variances :
     sigbeta0 = mp.sqrt((sigmahat**2) * gram_inv[0,0])
@@ -229,7 +231,7 @@ def TP2():
     predicted_invest = np.matmul(x, beta_hat)
     print((predicted_invest))
     
-    valstest = stat.t.ppf(0.999,  n-2)
+    valstest = stat.t.ppf(0.9995,  n-2)
     sigpredict = np.matmul(np.transpose(x), np.matmul(gram_inv, x))
     
             #Interval de prédiction
