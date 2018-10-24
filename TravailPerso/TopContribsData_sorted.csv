@@ -1,0 +1,257 @@
+rank,username,fullname,contribs,location,nb_repo,total_stars,stars/repo_mean
+226,bailicangdu,cangdu,1500,"Shanghai, China",13,45545,3503.46
+19,kamranahmedse,Kamran Ahmed,4994,Dubai,44,100100,2275.0
+143,vinta,Vinta,2213,"Taipei, Taiwan",32,58566,1830.19
+118,mrdoob,Mr.doob,2555,,35,55902,1597.2
+195,IanLunn,Ian Lunn,1757,"Devon, UK",18,25237,1402.06
+45,sebastianbergmann,Sebastian Bergmann,4390,"Siegburg, Germany",60,83291,1388.18
+231,junyanz,Jun-Yan Zhu,1479,"Berkeley, CA",14,19223,1373.07
+154,nolimits4web,Vladimir Kharlampidi,2127,"Rostov-on-Don, Russia",14,18744,1338.86
+196,ruanyf,Ruan YiFeng,1755,"Shanghai, China",53,66853,1261.38
+110,JakeWharton,Jake Wharton,2654,"Pittsburgh, PA, USA",100,107294,1072.94
+197,binux,Roy Binux,1745,"London, UK",20,17114,855.7
+209,gorhill,Raymond Hill,1646,Canada / Québec,24,20422,850.92
+107,photonstorm,Richard Davey,2658,UK,34,27008,794.35
+149,toddmotto,Todd Motto,2153,"England, UK",76,58656,771.79
+222,connors,Connor Sears,1531,"Castro Valley, CA",14,9013,643.79
+22,kennethreitz,Kenneth Reitz,4873,"Winchester, VA",99,62137,627.65
+247,Unknwon,无闻,1374,"Boston, MA",36,22469,624.14
+120,fzaninotto,Francois Zaninotto,2507,"Nancy, France",44,23698,538.59
+112,krzysztofzablocki,Krzysztof Zabłocki,2632,"Warsaw, Poland",38,19119,503.13
+66,mdo,Mark Otto,3367,"San Francisco, CA",40,19268,481.7
+182,jaywcjlove,小弟调调™,1859,"Shanghai, China",74,35281,476.77
+229,amitshekhariitbhu,AMIT SHEKHAR,1495,"New Delhi, India",37,17622,476.27
+169,ded,Dustin Diaz,1963,California,26,11362,437.0
+191,dennybritz,Denny Britz,1785,"Mountain View, CA",52,22723,436.98
+30,mikepenz,Mike Penz,4659,"Linz, Austria",55,23104,420.07
+28,steipete,Peter Steinberger,4694,"Vienna, Austria",44,17671,401.61
+168,Draveness,Draveness,1963,"Beijing, China",33,13244,401.33
+157,LeaVerou,Lea Verou,2110,"Boston, MA",61,23721,388.87
+213,daylerees,Dayle Rees,1611,"Wales, UK",32,12418,388.06
+92,tj,TJ Holowaychuk,2933,"Victoria, BC, Canada",269,97820,363.64
+115,mxcl,Max Howell,2586,"Savannah, GA",33,11801,357.61
+167,vczh,Zihan Chen,2001,"Seattle, WA, USA",6,2084,347.33
+134,zenorocha,Zeno Rocha,2341,California,114,39515,346.62
+241,rtomayko,Ryan Tomayko,1428,"Austin, TX",24,8287,345.29
+249,Shougo,Shougo,1371,Vim,63,21655,343.73
+188,CamDavidsonPilon,Cameron Davidson-Pilon,1830,"Ottawa, Canada",54,18118,335.52
+253,JohnSundell,John Sundell,1356,Poland / Norway / Sweden,49,15779,322.02
+221,overtrue,安正超,1547,"Shenzhen,China",69,21235,307.75
+142,avelino,Avelino,2234,"Roshamuul, Menera",127,38331,301.82
+97,SamyPesse,Samy Pessé,2883,"Lyon, France",73,21942,300.58
+190,winterbe,Benjamin Winterberg,1798,"Hanover, Germany",44,12829,291.57
+63,chjj,Christopher Jeffrey (JJ),3522,San Francisco,67,19487,290.85
+54,holman,Zach Holman,3891,San Francisco,51,14576,285.8
+29,ai,Andrey Sitnik,4664,"Saint Petersburg, Russia",59,16630,281.86
+227,nikic,Nikita Popov,1498,"Berlin, Germany",49,13804,281.71
+178,drakeet,drakeet,1911,"Hangzhou, China",23,5947,258.57
+93,jgm,John MacFarlane,2926,"Berkeley, CA",73,17277,236.67
+201,anishathalye,Anish Athalye,1703,"Cambridge, MA",57,12838,225.23
+165,yeasy,Baohua Yang,2004,,74,16176,218.59
+113,eduardolundgren,Eduardo Lundgren,2629,California,37,8054,217.68
+62,kylef,Kyle Fuller,3523,"London, England",31,6695,215.97
+144,developit,Jason Miller,2199,"Hamilton, Ontario, Canada",272,57415,211.08
+148,onevcat,Wei Wang,2166,"Kawasaki, Japan/Shanghai, China",156,32187,206.33
+50,paulmillr,Paul Miller,4061,Worldwide,57,11381,199.67
+255,samuelclay,Samuel Clay,1332,San Francisco,27,5321,197.07
+172,jendewalt,Jen Dewalt,1953,United States,6,1180,196.67
+94,jverkoey,featherless,2922,"New York, NY",52,10086,193.96
+238,matyhtf,Tianfeng,1434,China,20,3849,192.45
+218,josephmisiti,Joseph Misiti,1564,"NYC, NY",194,37155,191.52
+152,ankane,Andrew Kane,2134,"San Francisco, CA",187,35655,190.67
+133,BurntSushi,Andrew Gallant,2348,"Marlborough, MA",139,26239,188.77
+31,nvie,Vincent Driessen,4609,Netherlands,131,23741,181.23
+239,StephenGrider,Stephen Grider,1431,,86,15283,177.71
+57,buckyroberts,Bucky Roberts,3719,"Pasadena, CA",34,5913,173.91
+38,mitchellh,Mitchell Hashimoto,4541,"Los Angeles, CA",95,15545,163.63
+83,alexjlockwood,Alex Lockwood,3083,"San Francisco, CA",42,6861,163.36
+243,be5invis,Belleve Invis,1402,"Beijing, China",51,8275,162.25
+138,bevacqua,Nicolás Bevacqua,2310,https://twitter.com/nzgb,290,45006,155.19
+5,HugoGiraudel,Hugo Giraudel,7658,Berlin,40,6110,152.75
+217,oldratlee,李鼎(哲良),1571,"Hangzhou, Zhejiang, China",43,6498,151.12
+95,chenglou,Cheng Lou,2895,"Palo Alto, California",142,20580,144.93
+79,feross,Feross Aboukhadijeh,3130,"Mountain View, CA",123,17671,143.67
+41,phodal,Phodal Huang,4496,"Shenzhen, China",277,37875,136.73
+161,soffes,Sam Soffes,2083,San Francisco,151,19994,132.41
+77,gaearon,Dan Abramov,3155,"London, UK",229,30171,131.75
+199,leah,Leah Culver,1728,"San Francisco, CA",19,2450,128.95
+246,remy,Remy Sharp,1379,"Brighton, UK",239,30309,126.82
+104,notwaldorf,Monica Dinculescu,2706,Sun Funcisco ☀️,77,9701,125.99
+61,mgechev,Minko Gechev,3621,"California, USA",242,30432,125.75
+223,eliben,Eli Bendersky,1530,California,37,4424,119.57
+89,rauchg,Guillermo Rauch,3047,SF,110,13135,119.41
+185,evilsocket,Simone Margaritelli,1846,"Rome, Italy",108,12880,119.26
+102,carpedm20,Taehoon Kim,2745,,184,21605,117.42
+173,jessfraz,Jess Frazelle,1952,PID 1,109,12639,115.95
+17,GrahamCampbell,Graham Campbell,5135,The United Kingdom,29,3324,114.62
+106,rnystrom,Ryan Nystrom,2690,"New York, NY",64,7079,110.61
+205,KittenYang,Qitao Yang,1696,"Shanghai,China",96,10338,107.69
+91,KrauseFx,Felix Krause,3002,San Francisco,113,11487,101.65
+13,jxnblk,Brent Jackson,5601,New York City,278,28014,100.77
+16,rstacruz,Rico Sta. Cruz,5313,"Manila, Philippines",475,47017,98.98
+131,josevalim,José Valim,2361,"Kraków, Poland",23,2257,98.13
+130,wesm,Wes McKinney,2367,"New York, NY",96,9217,96.01
+220,ebidel,Eric Bidelman,1548,"San Francisco, CA",73,6794,93.07
+230,rakyll,JBD,1483,"San Francisco, CA",174,16007,91.99
+90,ianstormtaylor,Ian Storm Taylor,3042,"San Francisco, CA",184,16559,89.99
+214,weavejester,James Reeves,1608,"London, UK",143,12524,87.58
+156,biezhi,王爵nice,2113,"Shanghai, China",86,7417,86.24
+128,marijnh,Marijn Haverbeke,2378,Berlin,40,3366,84.15
+43,geerlingguy,Jeff Geerling,4443,"St. Louis, MO",207,16728,80.81
+78,soumith,Soumith Chintala,3144,"New York, USA",144,11092,77.03
+224,Seldaek,Jordi Boggiano,1514,"Zürich, Zurich, Switzerland",194,14831,76.45
+68,muan,Mu-An,3309,"Taipei, Taiwan",102,7630,74.8
+136,jaredhanson,Jared Hanson,2329,"Berkeley, CA",385,28666,74.46
+58,kbrsh,Kabir Shah,3716,,135,9901,73.34
+53,zcbenz,Cheng Zhao,3899,"Tokyo, Japan / China",31,2220,71.61
+117,alex,Alex Gaynor,2556,Washington D.C.,394,27506,69.81
+75,dlew,Daniel Lew,3157,Minneapolis,68,4740,69.71
+181,sdiehl,Stephen Diehl,1865,"Boston, MA",90,6199,68.88
+244,amueller,Andreas Mueller,1393,NYC,157,10677,68.01
+82,willdurand,William Durand,3094,Germany,72,4891,67.93
+71,mitsuhiko,Armin Ronacher,3253,Austria,198,13224,66.79
+20,joshaber,Josh Abernathy,4941,The Gem City,46,3037,66.02
+183,gitster,Junio C Hamano,1859,"Mountain View, CA",9,587,65.22
+96,DataTables,Allan Jardine,2894,Scotland,128,8335,65.12
+56,yihui,Yihui Xie,3748,"Omaha, NE",86,5565,64.71
+124,paulirish,Paul Irish,2412,Palo Alto,274,17038,62.18
+234,shiffman,Daniel Shiffman,1455,"New York, NY",140,8612,61.51
+212,siddontang,siddontang,1615,China,128,7823,61.12
+211,mrmrs,Adam Morse,1620,London,236,14215,60.23
+204,staltz,André Staltz,1696,"Helsinki, Finland",239,14177,59.32
+237,ericelliott,Eric Elliott,1436,"San Francisco, California",121,7045,58.22
+153,keijiro,Keijiro Takahashi,2128,Japan,475,27287,57.45
+180,ahmetb,Ahmet Alp Balkan,1866,"Seattle, WA",129,7395,57.33
+203,isaacs,isaacs,1698,Oakland CA,373,20531,55.04
+166,mafintosh,Mathias Buus,2001,"Copenhagen, Denmark",746,41047,55.02
+32,hadley,Hadley Wickham,4607,"Houston, TX",212,11486,54.18
+233,nicolasgramlich,Nicolas Gramlich,1459,"San Francisco, CA",77,4165,54.09
+100,tmcw,Tom MacWright,2821,"San Francisco, CA",142,7110,50.07
+228,codahale,Coda Hale,1496,"Oakland, CA",98,4878,49.78
+216,philsturgeon,Phil Sturgeon,1578,"Brooklyn, NY",72,3463,48.1
+69,kentcdodds,Kent C. Dodds,3284,"Salt Lake City, Utah, USA",479,22995,48.01
+121,pissang,Yi Shen,2472,"Shanghai, China",59,2806,47.56
+14,yegor256,Yegor Bugayenko,5566,"Palo Alto, CA",87,4095,47.07
+251,benoitc,Benoit Chesneau,1364,"Creil, France",211,9885,46.85
+76,technoweenie,risk danger olson,3156,"Louisville, CO",168,7505,44.67
+21,bkeepers,Brandon Keepers,4873,,169,7465,44.17
+256,unicodeveloper,Prosper Otemuyiwa,1322,"Lagos, Nigeria",147,6350,43.2
+111,yyx990803,Evan You,2645,New Jersey / China,146,6213,42.55
+34,Rich-Harris,Rich Harris,4580,NYC,272,11224,41.26
+51,tmm1,Aman Gupta,4046,"San Francisco, CA",218,8900,40.83
+60,mhevery,Miško Hevery,3649,,52,2055,39.52
+44,dcramer,David Cramer,4435,"San Francisco, CA",162,6317,38.99
+206,leebyron,Lee Byron,1679,San Francisco,85,3296,38.78
+7,bebraw,Juho Vepsäläinen,6895,"Vienna, Austria",151,5620,37.22
+116,domenic,Domenic Denicola,2570,"New York, NY",178,6614,37.16
+4,egoist,EGOIST,7688,"Chengdu, China",666,24423,36.67
+24,STRML,Samuel Reed,4855,"Milwaukee, WI",349,12683,36.34
+137,radar,Ryan Bigg,2315,"Melbourne, Australia",115,3896,33.88
+242,tomchristie,Tom Christie,1413,"Brighton, UK",34,1133,33.32
+219,atian25,TZ | 天猪,1561,"GuangZhou, China",37,1214,32.81
+122,jamesmontemagno,James Montemagno,2427,"Seattle, WA",183,5853,31.98
+194,killme2008,dennis zhuang,1760,"HangZhou/SuZhou,China",125,3993,31.94
+147,f,Fatih Kadir Akın,2178,"Istanbul, Turkey",202,6426,31.81
+125,samdark,Alexander Makarov,2403,Russia,124,3936,31.74
+126,madskristensen,Mads Kristensen,2394,"Redmond, WA",217,6867,31.65
+146,ashfurrow,Ash Furrow,2192,New York,244,7440,30.49
+202,pkrumins,Peter Krumins,1698,SF Bay Area,152,4617,30.38
+87,Haacked,Phil Haack,3055,"Bellevue, WA",55,1616,29.38
+42,jwiegley,John Wiegley,4475,"California, USA",243,7000,28.81
+174,indutny,Fedor Indutny,1946,USA,304,8251,27.14
+103,benjamn,Ben Newman,2743,New York City,143,3790,26.5
+12,benbalter,Ben Balter,5699,"Washington, DC",210,5563,26.49
+150,gdi2290,PatrickJS [tipe.io],2153,"San Francisco, CA",839,21597,25.74
+171,bnoordhuis,Ben Noordhuis,1954,The Netherlands,138,3543,25.67
+1,fabpot,Fabien Potencier,12947,San Francisco,36,923,25.64
+193,maryrosecook,Mary Rose Cook,1776,"London, UK",156,3989,25.57
+250,arunoda,Arunoda Susiripala,1369,"Colombo, Sri Lanka",235,5992,25.5
+27,agentzh,Yichun Zhang,4740,San Francisco Bay Area,62,1575,25.4
+74,Caged,Justin Palmer,3179,"Portland, OR",121,3020,24.96
+162,mxstbr,Max Stoiber,2048,"Vienna, Austria",187,4636,24.79
+64,ayende,Ayende Rahien,3444,Israel,96,2359,24.57
+81,brianleroux,Brian LeRoux,3102,"San Francisco, USA || Vancouver, Canada",184,4519,24.56
+55,kevinsawicki,Kevin Sawicki,3830,"Portland, OR",185,4339,23.45
+215,zce,汪磊,1602,"Beijing, China",169,3934,23.28
+86,adamwathan,Adam Wathan,3064,"Ontario, Canada",130,3007,23.13
+240,AdamBien,Adam Bien,1430,Planet Java,80,1827,22.84
+70,jskeet,Jon Skeet,3273,"London, UK",27,597,22.11
+6,ornicar,Thibault Duplessis,7341,"Paris, France",315,6956,22.08
+175,olivergierke,Oliver Gierke,1936,"Dresden, Germany",76,1595,20.99
+65,mcollina,Matteo Collina,3385,In the clouds above Italy,422,8806,20.87
+135,contra,contra,2333,"New York, NY",366,7533,20.58
+37,Ocramius,Marco Pivetta,4553,Frankfurt am Main,270,5508,20.4
+88,curran,Curran Kelleher,3054,Earth,189,3700,19.58
+108,mattn,mattn,2656,"Osaka, Japan",1369,26785,19.57
+141,dominictarr,Dominic Tarr,2259,New Zealand,865,16788,19.41
+25,atmos,Corey Donohoe,4826,South Lake Tahoe,170,3274,19.26
+47,ljharb,Jordan Harband,4277,"San Mateo, CA",208,3998,19.22
+170,vladikoff,Vlad Filippov,1958,North America,448,8533,19.05
+252,ask,Ask Solem,1363,"Palo Alto, CA",81,1524,18.81
+232,simurai,simurai,1478,"Sapporo, Japan",65,1186,18.25
+236,evanphx,Evan Phoenix,1436,"Los Angeles, CA",140,2549,18.21
+163,Jinjiang,勾三股四,2038,"Hangzhou, China",67,1213,18.1
+48,jdalton,John-David Dalton,4139,,13,234,18.0
+84,matsko,Matias Niemelä,3070,"San Francisco, California",27,469,17.37
+85,stefanpenner,Stefan Penner,3068,"San Jose, CA",548,9294,16.96
+184,djspiewak,Daniel Spiewak,1858,"Boulder, CO",84,1404,16.71
+159,odersky,,2102,,9,145,16.11
+187,shama,Kyle Robinson Young,1833,"Portland, OR",365,5798,15.88
+186,mariotaku,Mariotaku,1845,"Zhengzhou, Henan, China",97,1524,15.71
+9,alexcrichton,Alex Crichton,6145,"San Francisco, CA",337,5197,15.42
+33,appleboy,Bo-Yi Wu,4592,"Hsinchu, Taiwan",399,6085,15.25
+192,arun-gupta,Arun Gupta,1785,"San Jose, CA",143,2161,15.11
+52,c9s,Yo-An Lin,3980,"Taipei, Taiwan",405,6027,14.88
+139,xudafeng,xdf,2308,China,125,1779,14.23
+160,vhf,victor felder,2093,Switzerland,119,1682,14.13
+15,orta,Orta,5453,NYC / Huddersfield,621,8108,13.06
+155,davidfowl,David Fowler,2123,"Bellevue, WA",137,1783,13.01
+105,miyagawa,Tatsuhiko Miyagawa,2695,"San Francisco, CA",352,4556,12.94
+208,passy,Pascal Hartig,1660,"London, UK",402,5118,12.73
+101,brentvatne,Brent Vatne,2810,"Vancouver, Canada",343,4332,12.63
+10,jonathanong,jongleberry,5763,"Los Angeles, CA",67,803,11.99
+254,Raynos,Jake Verbaten,1334,San Francisco,577,6895,11.95
+132,jennybc,Jennifer (Jenny) Bryan,2361,"Vancouver, BC, Canada",262,3079,11.75
+176,i5ting,他们叫我狼叔,1929,china beijing,828,9317,11.25
+123,paulcbetts,Paul Betts,2414,San Francisco,263,2779,10.57
+67,yoshuawuyts,Yoshua Wuyts,3319,"Berlin, Germany",701,7078,10.1
+164,happypeter,Peter Wang,2023,微信：happypeter1983,147,1456,9.9
+40,IgorMinar,Igor Minar,4516,"SF Bay Area, CA",128,1228,9.59
+109,dougwilson,Douglas Wilson,2655,,30,273,9.1
+46,brunocvcunha,Bruno Volpato,4329,Worldwide,71,615,8.66
+35,drnic,Dr Nic Williams,4570,"Brisbane, Australia",533,4572,8.58
+235,purcell,Steve Purcell,1441,"Wellington, New Zealand",939,7851,8.36
+73,hzoo,Henry Zhu,3188,ATL -> NYC,176,1398,7.94
+114,vjeux,Christopher Chedeau,2602,"San Francisco, California",128,1014,7.92
+129,alanhamlett,Alan Hamlett,2377,San Francisco,68,518,7.62
+98,mjhea0,Michael Herman,2856,Boulder,694,5212,7.51
+210,phuslu,phuslu,1634,"Nanjing, China",79,588,7.44
+245,dead-horse,Yiyu He,1380,"Hangzhou, China",118,840,7.12
+119,josegonzalez,Jose Diaz-Gonzalez,2516,"New York, NY",332,2277,6.86
+151,EisenbergEffect,Rob Eisenberg,2151,,3,20,6.67
+140,j2kun,Jeremy Kun,2273,"San Francisco, CA",109,685,6.28
+127,sokra,Tobias Koppers,2391,Germany,91,570,6.26
+189,dsyer,Dave Syer,1813,London,249,1525,6.12
+72,steveklabnik,Steve Klabnik,3240,Brooklyn,786,4804,6.11
+18,afc163,偏右,5069,"Hangzhou, China",146,876,6.0
+158,davidtmiller,David Miller,2110,"Orlando, FL",6,35,5.83
+36,rafaelfranca,Rafael França,4556,"Ottawa, ON",144,826,5.74
+80,michalbe,Michał Budzyński,3103,"Warsaw, Poland",146,832,5.7
+23,kytrinyx,Katrina Owen,4866,,112,638,5.7
+177,laanwj,Wladimir J. van der Laan,1912,"Eindhoven, The Netherlands",116,638,5.5
+225,joyeecheung,Joyee Cheung,1507,,88,454,5.16
+3,taylorotwell,Taylor Otwell,8376,"Little Rock, AR",8,36,4.5
+145,ashleygwilliams,ashley williams,2193,NYC,325,1396,4.3
+26,weierophinney,Matthew Weier O'Phinney,4820,"Sioux Falls, SD, USA",251,872,3.47
+200,suissa,Jean Carlo Nascimento,1726,Curitiba - PR,642,2184,3.4
+2,andrew,Andrew Nesbitt,10188,"Somerset, UK",304,987,3.25
+39,stof,Christophe Coevoet,4521,Paris,449,1437,3.2
+11,mikermcneil,Mike McNeil,5736,"Austin, TX",201,618,3.07
+207,fengmk2,fengmk2,1665,"Hangzhou, China",196,551,2.81
+198,nfultz,Neal Fultz,1731,"Los Angeles, CA",80,207,2.59
+8,nelsonic,Nelson,6501,London,265,446,1.68
+248,jiyinyiyong,Jon Chen,1373,"Shanghai, China",162,223,1.38
+49,sevilayha,Chris Sevilleja,4122,Las Vegas,40,25,0.62
+59,dmalan,David J. Malan,3704,"Cambridge, MA, USA",27,13,0.48
+179,thejameskyle,James Kyle,1867,Sydney,0,0,0.0
+99,0x00A,paolo fragomeni,2846,NYC,8,0,0.0

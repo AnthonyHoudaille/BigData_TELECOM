@@ -33,7 +33,12 @@ def Reuters() :
         ActionPrice = ActionPriceBrut.strip()
         
         ActionChange1 = soup.find("span", class_ = "valueContentPercent")
-        ActionChangeBrut = ActionChange1.find("span", class_ = "neg" ).text.replace('(', '').replace(')', '')
+        ActionChangeBrut = ActionChange1.find("span", class_ = "pos" )
+        
+        if (ActionChangeBrut == None):
+            ActionChangeBrut = ActionChange1.find("span", class_ = "neg" ).text.replace('(', '').replace(')', '')
+        else :
+            ActionChangeBrut = ActionChangeBrut.text.replace('(', '').replace(')', '')
         ActionChange = ActionChangeBrut.strip()
         
         Column1 = soup.find("div", class_ = "column1 gridPanel grid8")
