@@ -13,7 +13,7 @@ import time
 
 
 my_username = 'anthonyhoudaille'
-
+my_tokenGit = 
 
 
 
@@ -36,7 +36,7 @@ def getJson(Userpage):
     url_api = 'https://api.github.com' + Userpage
     r = requests.get(url_api, auth=(my_username, my_tokenGit))
     if r.status_code == 200:
-        return r.json()
+        return r
     else:
         return None
 
