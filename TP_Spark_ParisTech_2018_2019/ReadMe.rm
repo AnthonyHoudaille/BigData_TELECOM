@@ -1,0 +1,17 @@
+Afin de bien executer le projet, veillez à respecter les directives suivantes : 
+  -Clonner le répertoire TP_Spark_ParisTech_2018_2019 en entier.
+  -Ouvrir le fichier "Trainer" afin de modifier les liens de lectures des fichiers présent dedans.
+  -Enfin, il faut taper la commande  :"./build_and_submit.sh Trainer" dans le terminal (à la base du dossier).
+  
+  Un exemple de résultat est le suivant : 
+  
+  +-------------+----------+-----+
+  | final_status|prediction|count|
+  +-------------+----------+-----+
+  |            1|       0.0| 1017|
+  |            0|       1.0| 2865|
+  |            1|       1.0| 2377|
+  |            0|       0.0| 4391|
+  +-------------+----------+-----+
+  
+Ces résultats peuvent changer si l'on modifie le seed ainsi que le découpage "train" / "test".
