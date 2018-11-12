@@ -1,6 +1,6 @@
 Afin de bien executer le projet, veillez à respecter les directives suivantes : 
   -Clonner le répertoire TP_Spark_ParisTech_2018_2019 en entier.
-  -Ouvrir le fichier "Trainer" afin de modifier les liens de lectures des fichiers présent dedans.
+  -Ouvrir le fichier "Trainer" afin de modifier les liens de lectures des fichiers présents dedans.
   -Enfin, il faut taper la commande  :"./build_and_submit.sh Trainer" dans le terminal (à la base du dossier).
   
   Un exemple de résultat est le suivant : 
