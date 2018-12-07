@@ -123,7 +123,7 @@ object Trainer {
 
 
     // Création of the tranning Data Set
-    val Array(training, test) = df.randomSplit(Array(0.9, 0.1), seed = 12345)
+    val Array(training, test) = df.randomSplit(Array(”, 0.1), seed = 12345)
 
     pipeline.fit(training)
 

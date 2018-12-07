@@ -2,9 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="320636ba-8dd5-4712-a906-5ae0a1fc49f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Spark/src/main/scala/com/sparkProject/Preprocessor.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark/src/main/scala/com/sparkProject/Trainer.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spark/src/main/scala/com/sparkProject/WordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$3737bda3a5364b3f73a4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$3737bda3a5364b3f73a4.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$3737bda3a5364b3f73a4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$41cf11542673f0d15f8e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$41cf11542673f0d15f8e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$41cf11542673f0d15f8e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$44bcf0217c9c5da100a6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$44bcf0217c9c5da100a6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$44bcf0217c9c5da100a6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$912d3a736a9bea3096b1$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$912d3a736a9bea3096b1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$912d3a736a9bea3096b1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$912d3a736a9bea3096b1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$ad1cdd52b04ad7af4ea8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$ad1cdd52b04ad7af4ea8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/project/target/config-classes/$ad1cdd52b04ad7af4ea8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$139516bf2a2e537e21d7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$139516bf2a2e537e21d7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$139516bf2a2e537e21d7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$175d1d94c74fb6afb979$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$175d1d94c74fb6afb979$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$175d1d94c74fb6afb979.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$175d1d94c74fb6afb979.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$1cbf0e1415206cc8eca9$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$1cbf0e1415206cc8eca9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$1cbf0e1415206cc8eca9.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$1cbf0e1415206cc8eca9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$21df4f6df3947a73ceba$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$21df4f6df3947a73ceba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$21df4f6df3947a73ceba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$21df4f6df3947a73ceba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$2f6d2fb806f78b810be2$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$2f6d2fb806f78b810be2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$2f6d2fb806f78b810be2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$2f6d2fb806f78b810be2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$307a967a734ea9c0b97f$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$307a967a734ea9c0b97f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$307a967a734ea9c0b97f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$307a967a734ea9c0b97f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9b6ce053f66c9c7bbf3f$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9b6ce053f66c9c7bbf3f$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9b6ce053f66c9c7bbf3f.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9b6ce053f66c9c7bbf3f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9e77e265ec367c30fc90$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9e77e265ec367c30fc90$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9e77e265ec367c30fc90.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$9e77e265ec367c30fc90.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$aa6b920babff55ceab6d$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$aa6b920babff55ceab6d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$aa6b920babff55ceab6d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$aa6b920babff55ceab6d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$c88d9b970bc6878a21c8$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$c88d9b970bc6878a21c8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$c88d9b970bc6878a21c8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/config-classes/$c88d9b970bc6878a21c8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/src/main/scala/com/sparkProject/Trainer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/src/main/scala/com/sparkProject/Trainer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/TP_ParisTech_2017_2018-assembly-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/TP_ParisTech_2017_2018-assembly-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/classes/com/sparkProject/Preprocessor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/classes/com/sparkProject/Preprocessor$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/classes/com/sparkProject/Trainer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/classes/com/sparkProject/Trainer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/paristech/tp_paristech_2017_2018_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/paristech/tp_paristech_2017_2018_2.11/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/paristech/tp_paristech_2017_2018_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/paristech/tp_paristech_2017_2018_2.11/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/scala-2.11/resolution-cache/reports/paristech-tp_paristech_2017_2018_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/assembly/$global/streams/assembly-inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/assembly/$global/streams/assembly-inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/assembly/$global/streams/assembly-outputs" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/assembly/$global/streams/assembly-outputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/assembly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/assembly/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../TP_Spark_ParisTech_2018_2019/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -55,9 +167,11 @@
     <session id="-274441682">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -73,7 +187,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -86,8 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -98,56 +211,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
+              <item name="TP_ParisTech_2018_2019_starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP_ParisTech_2018_2019_starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp_paristech_2017_2018_starter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP_ParisTech_2017_2018_starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkProject" type="462c0819:PsiDirectoryNode" />
+              <item name="TP_ParisTech_2018_2019_starter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP_ParisTech_2018_2019_starter" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,33 +249,8 @@
     </option>
   </component>
   <component name="SbtLocalSettings">
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="TP_ParisTech_2017_2018" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="tp_paristech_2017_2018_starter [file:/Users/anthonyhoudaille/Desktop/TP_ParisTech_2017_2018_starter/]" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="tp_paristech_2017_2018_starter-build [file:/Users/anthonyhoudaille/Desktop/TP_ParisTech_2017_2018_starter/]" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4513838556000" />
         <entry key="$PROJECT_DIR$/build.sbt" value="1333697308" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="924338670" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="4157127457" />
@@ -215,9 +271,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -233,7 +289,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32868218" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30948904" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30948904" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -252,23 +308,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Preprocessor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="221" column="86" selection-start-line="221" selection-start-column="86" selection-end-line="221" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
-          <folding>
-            <element signature="e#26#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Preprocessor.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkProject/Trainer.scala" />
   </component>
   <component name="masterDetails">
     <states>
